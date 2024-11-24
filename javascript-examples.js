@@ -15,6 +15,25 @@ const multiply = (a, b) => a * b;
 const fruits = ["apple", "banana", "orange"];
 fruits.push("mango");
 
+
+
+// Working with arrays
+const fruits = ["apple", "banana", "orange"];
+fruits.push("mango");
+
+// Working with arrays
+const fruits = ["apple", "banana", "orange"];
+fruits.push("mango");
+
+// Working with arrays
+const fruits = ["apple", "banana", "orange"];
+fruits.push("mango");
+
+// Working with arrays
+const fruits = ["apple", "banana", "orange"];
+fruits.push("mango");
+
+
 // Array methods
 const numbers = [1, 2, 3, 4, 5];
 const doubled = numbers.map(num => num * 2);
