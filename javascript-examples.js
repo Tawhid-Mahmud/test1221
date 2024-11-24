@@ -9,11 +9,8 @@ function greet(name) {
 }
 
 // Arrow function
-const multiply = (a, b) => a * b;
 
-// Working with arrays
-const fruits = ["apple", "banana", "orange"];
-fruits.push("mango");
+
 
 // Array methods
 const numbers = [1, 2, 3, 4, 5];
