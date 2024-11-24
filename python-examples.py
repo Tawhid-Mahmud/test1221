@@ -15,7 +15,7 @@ person = {
     "age": 30,
     "city": "New York"
 }
-
+print("test")
 # Set
 unique_numbers = {1, 2, 3, 3, 4, 4, 5}  # Duplicates are automatically removed
 
@@ -34,6 +34,12 @@ def calculate_rectangle_area(length: float, width: float) -> float:
     """Calculate the area of a rectangle."""
     return length * width
 
+# List comprehension
+numbers = [1, 2, 3, 4, 5]
+squares = [n**2 for n in numbers]
+even_numbers = [n for n in numbers if n % 2 == 0]
 
-
-
+# Class definition
+class Dog:
+    def __init__(self, name: str, age: int):
+        self.name = name
