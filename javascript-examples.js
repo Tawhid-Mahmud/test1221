@@ -6,23 +6,7 @@ var oldStyle = "not recommended"; // var is older syntax
 // Functions
 function greet(name) {
     return `Hello, ${name}!`;
-}
 
-// Arrow function
-const multiply = (a, b) => a * b;
-
-// Working with arrays
-const fruits = ["apple", "banana", "orange"];
-fruits.push("mango");
-
-// Array methods
-const numbers = [1, 2, 3, 4, 5];
-const doubled = numbers.map(num => num * 2);
-const evenNumbers = numbers.filter(num => num % 2 === 0);
-const sum = numbers.reduce((acc, curr) => acc + curr, 0);
-
-// Objects
-const person = {
     firstName: "John",
     lastName: "Doe",
     age: 30,
