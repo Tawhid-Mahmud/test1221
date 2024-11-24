@@ -49,30 +49,7 @@ class Dog extends Animal {
 }
 
 // Async/await example
-async function fetchUserData(userId) {
-    try {
-        const response = await fetch(`https://api.example.com/users/${userId}`);
-        const data = await response.json();
-        return data;
-    } catch (error) {
-        console.error('Error fetching user data:', error);
-    }
-}
 
-// Event handling example
-document.addEventListener('DOMContentLoaded', () => {
-    const button = document.querySelector('#myButton');
-    button.addEventListener('click', () => {
-        console.log('Button clicked!');
-    });
-});
-
-// Example usage
-console.log(greet("World")); // Hello, World!
-console.log(multiply(4, 5)); // 20
-console.log(doubled); // [2, 4, 6, 8, 10]
-console.log(evenNumbers); // [2, 4]
-console.log(sum); // 15
 
 const dog = new Dog("Rex");
 dog.speak(); // Rex barks!
