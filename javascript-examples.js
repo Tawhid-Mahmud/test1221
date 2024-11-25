@@ -21,15 +21,7 @@ const doubled = numbers.map(num => num * 2);
 const evenNumbers = numbers.filter(num => num % 2 === 0);
 const sum = numbers.reduce((acc, curr) => acc + curr, 0);
 
-// Objects
-const person = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 30,
-    fullName() {
-        return `${this.firstName} ${this.lastName}`;
-    }
-};
+
 
 // Classes
 class Animal {
