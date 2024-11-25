@@ -9,12 +9,7 @@ height = 1.75
 fruits = ["apple", "banana", "orange"]
 fruits.append("mango")
 
-# Dictionary
-person = {
-    "name": "John",
-    "age": 30,
-    "city": "New York"
-}
+
 
 # Set
 unique_numbers = {1, 2, 3, 3, 4, 4, 5}  # Duplicates are automatically removed
