@@ -1,21 +1,5 @@
 // Basic variable declarations
-const name = "Alice";
-let age = 25;
-var oldStyle = "not recommended"; // var is older syntax
 
-// Functions
-function greet(name) {
-    return `Hello, ${name}!`;
-}
-
-// Arrow function
-const multiply = (a, b) => a * b;
-
-// Working with arrays
-const fruits = ["apple", "banana", "orange"];
-fruits.push("mango");
-
-// Array methods
 const numbers = [1, 2, 3, 4, 5];
 const doubled = numbers.map(num => num * 2);
 const evenNumbers = numbers.filter(num => num % 2 === 0);
