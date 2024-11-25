@@ -33,6 +33,18 @@ def greet(name, greeting="Hello"):
 def calculate_rectangle_area(length: float, width: float) -> float:
     """Calculate the area of a rectangle."""
     return length * width
+    # Basic function
+def greet(name, greeting="Hello"):
+    """
+    A simple greeting function with a default parameter.
+    """
+    return f"{greeting}, {name}!"
+
+# Function with type hints
+def calculate_rectangle_area(length: float, width: float) -> float:
+    """Calculate the area of a rectangle."""
+    return length * width
+
 
 
 
